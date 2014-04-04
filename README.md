@@ -11,6 +11,7 @@ Installation:
   3. Clone repository.
   4. Change directory to /serverspec.
   5. Run this command. $ HOST=[IP] USER=[username] PASSWORD=[password] rake spec
+
     Example: HOST=116.93.102.51 USER=root PASSWORD=musashi rake spec
   
 Notes:
