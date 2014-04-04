@@ -4,7 +4,7 @@ serverspec
 
 
 Installation:
-    The following procedure was tested in Ubuntu 12.04 Server/Desktop.
+    The following procedure was tested in Ubuntu 12.04 Server/Desktop. You should have GIT application installed in your machine. Below user is preferably root or any user in your target server that has passwordless sudo access.
     
   1. Install latest Ruby. (suggested guide > https://www.digitalocean.com/community/articles/how-to-install-ruby-on-rails-on-ubuntu-12-04-lts-precise-pangolin-with-rvm)
   2. Install gem. $ gem install serverspec
