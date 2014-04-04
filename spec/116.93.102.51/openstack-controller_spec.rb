@@ -104,15 +104,6 @@ describe service('nova-conductor') do
   it { should be_running   }
 end
 
-describe package('neutron-server') do
-  it { should be_installed   }
-end
-
-describe service('neutron-server') do
-  it { should be_enabled   }
-  it { should be_running   }
-end
-
 
 # CHECK DEFAULT PORTS
 describe port (3306) do
@@ -152,10 +143,6 @@ describe port (9292) do
 end
 
 describe port (9191) do
-  it { should be_listening.with('tcp') }
-end
-
-describe port (9696) do
   it { should be_listening.with('tcp') }
 end
 
