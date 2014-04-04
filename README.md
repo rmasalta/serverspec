@@ -14,4 +14,4 @@ Installation:
     Example: HOST=116.93.102.51 USER=root PASSWORD=musashi rake spec
   
 Notes:
-  1. Failed examples are due to packages/services not yet installed namely. For instance, Ceilometer and Neutron are not yet installed hence the failed notifications on ports 8777 and 9696.
+  1. Failed examples are due to packages/services not yet installed. In Dev Server for instance, Ceilometer and Neutron are not yet installed, hence the failed notifications on ports 8777 and 9696.
